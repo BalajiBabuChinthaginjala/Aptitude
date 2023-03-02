@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class TimeAndWorkApp {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("1. If A and B can do a piece of work in X and Y days respectively while working\n" +
                 "alone, they will together take time to complete it.");
         System.out.println("2. If A , B , C can do a piece of work in X , Y , Z days respectively while\n" +
@@ -17,36 +17,36 @@ public class TimeAndWorkApp {
                 " but z days before the completion of job, A/B leaves off. In how many days will\n" +
                 " the work be completed?");
         System.out.println("Enter your Choice");
-        int choice=sc.nextInt();
-        switch (choice){
+        int choice = sc.nextInt();
+        switch (choice) {
             case 1:
                 System.out.println("Enter work Done By A");
-                double x=sc.nextDouble();
+                double x = sc.nextDouble();
                 System.out.println("Enter Work done by B");
-                double y=sc.nextDouble();
-                System.out.println(WorkingAlone_TogetherToComplete.A_BTogether(x,y));
+                double y = sc.nextDouble();
+                System.out.println(WorkingAlone_TogetherToComplete.A_BTogether(x, y));
                 break;
             case 2:
                 System.out.println("Enter work Done By A");
-                double x1=sc.nextDouble();
+                double x1 = sc.nextDouble();
                 System.out.println("Enter Work done by B");
-                double y1=sc.nextDouble();
+                double y1 = sc.nextDouble();
                 System.out.println("Enter work Done by C");
-                double z1= sc.nextDouble();
-                System.out.println(WorkingAlone_TogetherToComplete.A_B_CTogether(x1,y1,z1));
+                double z1 = sc.nextDouble();
+                System.out.println(WorkingAlone_TogetherToComplete.A_B_CTogether(x1, y1, z1));
                 break;
             case 3:
                 System.out.println("Enter the work done by A and B");
-                double A_BWork= sc.nextDouble();
+                double A_BWork = sc.nextDouble();
                 System.out.println("Enter the work done by B and C");
-                double B_CWork= sc.nextDouble();
+                double B_CWork = sc.nextDouble();
                 System.out.println("Enter the work done by A and C");
-                double A_CWork= sc.nextDouble();
+                double A_CWork = sc.nextDouble();
                 System.out.println("1.WorkDone By A,B,C together");
                 System.out.println("2.Work done A alone");
                 System.out.println("3.Work done B alone");
                 System.out.println("4.Work done C alone");
-                int choice1= sc.nextInt();
+                int choice1 = sc.nextInt();
                 switch (choice1) {
                     case 1 ->
                             System.out.println(WorkingTogether_AloneToComplete.abc_Together(A_BWork, B_CWork, A_CWork));
@@ -74,17 +74,17 @@ public class TimeAndWorkApp {
                 break;
             case 6:
                 System.out.println("Enter A work");
-                double x2= sc.nextDouble();
+                double x2 = sc.nextDouble();
                 System.out.println("Enter B work");
-                double y2= sc.nextDouble();
+                double y2 = sc.nextDouble();
                 System.out.println("Enter How many days before A/B leaves");
-                double z2= sc.nextDouble();
+                double z2 = sc.nextDouble();
                 System.out.println("Who leaves A/B--enter A or B");
-                String input=sc.next();
-                if (input.equals("A")){
-                    System.out.println(Leaving.leaving_A(x2,y2,z2));
-                }else{
-                    System.out.println(Leaving.leaving_B(x2,y2,z2));
+                String input = sc.next();
+                if (input.equals("A")) {
+                    System.out.println(Leaving.leaving_A(x2, y2, z2));
+                } else {
+                    System.out.println(Leaving.leaving_B(x2, y2, z2));
                 }
                 break;
 
