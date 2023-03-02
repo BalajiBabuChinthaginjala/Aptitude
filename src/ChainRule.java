@@ -89,7 +89,7 @@ public class ChainRule {
                 System.out.println(hours);
 
             } else {
-                System.out.println("ATLEAST ONE VALUE MUST BE 'X' ");
+                System.out.println("AT LEAST ONE VALUE MUST BE 'X' ");
             }
             sc.close();
         }
