@@ -1,4 +1,4 @@
-
+package com.aptitude.timeandwork;
 
 import java.util.Scanner;
 

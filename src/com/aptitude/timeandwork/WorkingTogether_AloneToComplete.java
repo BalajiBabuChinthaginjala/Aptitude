@@ -1,3 +1,5 @@
+package com.aptitude.timeandwork;
+
 public class WorkingTogether_AloneToComplete {
     /*
      * A and B complete a work in x days and B and C complete in y days and A and

@@ -1,9 +1,11 @@
+package com.aptitude.timeandwork;
+
 import java.util.Scanner;
 
 public class TimeAndWorkApp {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-       //System.out.println(Leaving.leaving(12,18,18,5));
+       //System.out.println(com.aptitude.timeandwork.Leaving.leaving(12,18,18,5));
         System.out.println("1. If A and B can do a piece of work in X and Y days respectively while working\n" +
                 "alone, they will together take time to complete it.");
         System.out.println("2. If A , B , C can do a piece of work in X , Y , Z days respectively while\n" +

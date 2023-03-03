@@ -1,3 +1,5 @@
+package com.aptitude.timeandwork;
+
 public class Leaving {
     /*
      * A and B can do alone a job in x days and y days. They began the work together

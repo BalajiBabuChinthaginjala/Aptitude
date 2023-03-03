@@ -1,3 +1,5 @@
+package com.aptitude.timeandwork;
+
 public class SingleProblems {
     /*
      * A is K times as good a worker as B and takes X days less than B to finish the

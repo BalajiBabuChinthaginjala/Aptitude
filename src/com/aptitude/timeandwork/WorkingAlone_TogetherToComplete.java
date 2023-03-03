@@ -1,3 +1,5 @@
+package com.aptitude.timeandwork;
+
 public class WorkingAlone_TogetherToComplete {
     /*
      * If A and B can do a piece of work in X and Y days respectively while working
