@@ -19,12 +19,8 @@ public class Leaving {
     /*A and B and C can do alone a job in x days and y days and Z days. They began the work together
      * but z days before the completion of job, A leaves off. In how many days will
      * the work be completed?*/
-    static double leaving(double x,double y,double z,double d) {
-        // d + [(1/x + 1/y + 1/z - d/x) x (1/y + 1/z)] / [(1/y + 1/z)]
-        double A=(1/x + 1/y + 1/z - d/x) * (1/y + 1/z);
-        double B=(1/y + 1/z);
+    static void leaving(double x, double y, double z, double d) {
 
-        return d+(A/B);
 
     }
 
