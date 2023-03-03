@@ -4,6 +4,7 @@ public class WorkingAlone_TogetherToComplete {
      * alone, they will together take time to complete it.
      */
     static double A_BTogether(double x, double y) {
+
         return x * y / (x + y);
     }
     /*
@@ -53,4 +54,14 @@ public class WorkingAlone_TogetherToComplete {
         double A_B_work = x * y / (x + y);
         return A_B_work;
     }
+
+    /*A can complete  X piece of work in 'n1' days and
+    B-> Y piece of work in 'n2' days in how many days both A and B can complete*/
+    static double A_BWork(double x,double d1,double y,double d2){
+        double A_oneWork=(x)*d1;
+        double B_oneWork=(y)*d2;
+        double a_bTogether=WorkingAlone_TogetherToComplete.A_BTogether(A_oneWork,B_oneWork);
+        return (a_bTogether);
+    }
+
 }
