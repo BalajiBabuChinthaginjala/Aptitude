@@ -13,6 +13,7 @@ public class AngleOfHourAndMinute {
     }
     /*.TO find Reflect_angle between hour and minute hand*/
     static double reflectAngle(int hours,int minutes){
+
         return 360-AngleOfHourAndMinute.Angle(hours,minutes);
     }
     /*The hour hand moved x degrees find the time*/
@@ -25,5 +26,7 @@ public class AngleOfHourAndMinute {
         System.out.println("Required time is " + time + " hrs ahead of "+hour+" is : "+hour+"+"+time);
         return total_time;
     }
+
+
 
 }

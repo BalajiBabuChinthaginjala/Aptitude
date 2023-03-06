@@ -1,6 +1,6 @@
 package com.aptitude.clocks;
 
-public class HandsOfClocktogether {
+public class HandsOfClockTogether {
     /*To find Where the hand of a clock will Together*/
     static double Together(double hours1,double hours2){
         double hands_together=(60*(hours1*5))/55;

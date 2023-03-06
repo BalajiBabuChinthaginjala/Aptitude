@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4a4b4e6-b442-4b27-8413-50b6826ed3c3" name="Changes" comment="Formatted files." />
+    <list default="true" id="e4a4b4e6-b442-4b27-8413-50b6826ed3c3" name="Changes" comment="Formatted files.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aptitude/clocks/AngleOfHourAndMinute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/clocks/AngleOfHourAndMinute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aptitude/clocks/ClockApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aptitude/clocks/HandsOfClocktogether.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/clocks/HandsOfClockTogether.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aptitude/timeandwork/Leaving.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/timeandwork/Leaving.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aptitude/timeandwork/TimeAndWorkApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/timeandwork/TimeAndWorkApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aptitude/timeandwork/WorkingAlone_TogetherToComplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/timeandwork/WorkingAlone_TogetherToComplete.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,22 +63,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "18",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ClockApp">
-    <configuration name="ClockApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClockApp" />
-      <module name="Clocks" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Application.TimeAndWorkApp">
     <configuration name="ClockApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ClockApp" />
       <module name="Clocks" />
@@ -85,16 +86,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Clocks" />
+    <configuration name="CompoundApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aptitude.compoundinterest.CompoundApp" />
+      <module name="Aptitude" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aptitude.compoundinterest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Clocks" />
+    <configuration name="Lcm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aptitude.timeandwork.Lcm" />
+      <module name="Aptitude" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aptitude.timeandwork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aptitude.simpleinterest.SimpleApp" />
+      <module name="Aptitude" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aptitude.simpleinterest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,25 +132,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="com.aptitude.clocks.ClockApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aptitude.clocks.ClockApp" />
       <module name="Aptitude" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Aptitude" />
-      <option name="filePath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aptitude.clocks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClockApp" />
-        <item itemvalue="Application.ClockApp" />
-        <item itemvalue="Application.ClockApp" />
         <item itemvalue="Application.TimeAndWorkApp" />
+        <item itemvalue="Application.Lcm" />
+        <item itemvalue="Application.com.aptitude.clocks.ClockApp" />
+        <item itemvalue="Application.CompoundApp" />
+        <item itemvalue="Application.SimpleApp" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677854474394</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Formatted files.">
+      <created>1677856080619</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677856080619</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

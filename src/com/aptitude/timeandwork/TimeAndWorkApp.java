@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class TimeAndWorkApp {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-       //System.out.println(com.aptitude.timeandwork.Leaving.leaving(12,18,18,5));
         System.out.println("1. If A and B can do a piece of work in X and Y days respectively while working\n" +
                 "alone, they will together take time to complete it.");
         System.out.println("2. If A , B , C can do a piece of work in X , Y , Z days respectively while\n" +
@@ -35,7 +34,10 @@ public class TimeAndWorkApp {
                 double x = sc.nextDouble();
                 System.out.println("Enter Work done by B");
                 double y = sc.nextDouble();
-                System.out.println(WorkingAlone_TogetherToComplete.A_BTogether(x, y));
+                double workDone=WorkingAlone_TogetherToComplete.A_BTogether(x, y);
+                System.out.println("A and B together to complete the work in: "+workDone+"days");
+                System.out.println("A complete the "+workDone/x +" potion of work");
+                System.out.println("B complete the "+workDone/y +" potion of work");
             }
             case 2 -> {
                 System.out.println("Enter work Done By A");
@@ -44,7 +46,7 @@ public class TimeAndWorkApp {
                 double y1 = sc.nextDouble();
                 System.out.println("Enter work Done by C");
                 double z1 = sc.nextDouble();
-                System.out.println(WorkingAlone_TogetherToComplete.A_B_CTogether(x1, y1, z1));
+                System.out.println("A and B and C together to complete the work in : "+WorkingAlone_TogetherToComplete.A_B_CTogether(x1, y1, z1)+"days");
             }
             case 3 -> {
                 System.out.println("Enter the work done by A and B");
@@ -59,12 +61,11 @@ public class TimeAndWorkApp {
                 System.out.println("4.Work done C alone");
                 int choice1 = sc.nextInt();
                 switch (choice1) {
-                    case 1 ->
-                            System.out.println(WorkingTogether_AloneToComplete.abc_Together(A_BWork, B_CWork, A_CWork));
-                    case 2 -> System.out.println(WorkingTogether_AloneToComplete.a_alone(A_BWork, B_CWork, A_CWork));
-                    case 3 -> System.out.println(WorkingTogether_AloneToComplete.b_alone(A_BWork, B_CWork, A_CWork));
-                    case 4 -> System.out.println(WorkingTogether_AloneToComplete.c_alone(A_BWork, B_CWork, A_CWork));
-                    default -> System.out.println("Enter valid input");
+                    case 1 -> System.out.println("A,B,C together to complete the work in :"+WorkingTogether_AloneToComplete.abc_Together(A_BWork, B_CWork, A_CWork)+" days");
+                    case 2 -> System.out.println("A alone can do the work in : "+WorkingTogether_AloneToComplete.a_alone(A_BWork, B_CWork, A_CWork)+"days");
+                    case 3 -> System.out.println("B alone can do the work in : "+WorkingTogether_AloneToComplete.b_alone(A_BWork, B_CWork, A_CWork)+" days");
+                    case 4 -> System.out.println("C alone can do the work in : "+WorkingTogether_AloneToComplete.c_alone(A_BWork, B_CWork, A_CWork)+"days");
+                    default ->System.out.println("Enter valid input");
                 }
             }
             case 4 -> ChainRule.main(args);
@@ -93,9 +94,9 @@ public class TimeAndWorkApp {
                 System.out.println("Who leaves A/B--enter A or B");
                 String input = sc.next();
                 if (input.equals("A")) {
-                    System.out.println(Leaving.leaving_A(x2, y2, z2));
+                    System.out.println("B alone can complete the remaining work in: "+Leaving.leaving_A(x2, y2, z2)+" days");
                 } else {
-                    System.out.println(Leaving.leaving_B(x2, y2, z2));
+                    System.out.println("A alone can complete the remaining work in: "+Leaving.leaving_B(x2, y2, z2)+" days");
                 }
             }
             case 7 -> {

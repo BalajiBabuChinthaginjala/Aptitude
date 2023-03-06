@@ -17,13 +17,6 @@ public class WorkingAlone_TogetherToComplete {
         return x * y * z / ((x * y) + (y * z) + (z * x));
 
     }
-
-
-
-
-
-
-
     /*
      * If A can finish work in X days and B in Y days and A, B and C together in S
      * day then :
@@ -64,6 +57,13 @@ public class WorkingAlone_TogetherToComplete {
         double B_oneWork=(y)*d2;
         double a_bTogether=WorkingAlone_TogetherToComplete.A_BTogether(A_oneWork,B_oneWork);
         return (a_bTogether);
+    }
+
+    /*A can complete  X piece of work in 'n1' days and
+    B-> Y piece of work in 'n2' days in how many days both A and B can complete z piece of work */
+    static void Work((double x,double d1,double y,double d2,double z){
+
+
     }
 
 }
