@@ -7,19 +7,6 @@ public class SingleProblems {
         System.out.println("number of rotations ="+hours+"/12"+" =");
        return rotations;
     }
-    /*To find angle of minute hand when the clock starting to till the required time*/
-    static double Angle(double minutes){
-        double angle=6*minutes ;
-        System.out.println("Angle traced by the minute hand in " + minutes + " is: ");
-        return angle;
-
-    }
-    /*To find angle of hours hand when the clock starting to till the required time*/
-    static double AngleOfHour(double hours){
-        double angle=30*(hours) ;
-        System.out.println("Angle traced by the minute hand in " + hours + " is: ");
-        return angle;
-    }
     /*How many times the hands of a clock coincide/Opposite in x days*/
     static double coincide(double hours){
         double coincide=((hours/12)*11);
@@ -48,6 +35,32 @@ public class SingleProblems {
         double lossinoneday=((loss)*(1/minutes)*(24*60));
         return lossinoneday;
     }
+    /*The clock gains x mins in one hour then the angle traversed by minute hand in y hours*/
+    static double gain(int minutes,int hours){
+        double requiredangle=hours*(6*(60+minutes));
+        return requiredangle;
+
+    }
+    /*A clock strikes once at 1'O clock twice at 2"o clock and so on total no of strikes in x hours */
+    static int strikes(int days){
+        int noofstrikes=(2*(12*13/2)*days);
+        return noofstrikes;
+    }
+    /*A wall clock takes 9 seconds in tringing at 9'o clock the time it will take in training at 11'o clock is*/
+    static double prob_27(double sec1,double hour1,double hour2){
+
+        double requiredtime=((hour1*(hour2-1))/(sec1-1));
+        return requiredtime;
+    }
+    /*A watch becomes fast by x mins everyday by what % does it become fast */
+    static double timereduce(double time){
+        double requiredPercent=(time*100)/1440;//1440 is the value of number of minutes in a day(24*60)
+        return requiredPercent;
+    }
+
+
+
+
 
 
 

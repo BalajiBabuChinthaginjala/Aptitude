@@ -24,7 +24,10 @@ public class TimeAndWorkApp {
         System.out.println("8.If A can finish work in X days and B in Y days and A, B and C together in S days then" +
                 " c alone b_c and a_b alone can do in:\n");
         System.out.println("9.A can complete  X piece of work in 'n1' days and\n" +
-                "    B-> Y piece of work in 'n2' days in how many days both A and B can complete");
+                " B-> Y piece of work in 'n2' days in how many days both A and B can complete");
+        System.out.println("10.A can complete  X piece of work in 'n1' days and\n" +
+                " B-> Y piece of work in 'n2' days in how many days both A and B can complete z piece of work");
+
         System.out.println();
         System.out.println("Enter your Choice");
         int choice = sc.nextInt();
@@ -150,6 +153,20 @@ public class TimeAndWorkApp {
                 System.out.println("Enter how many days taken to complete the work by B");
                 double d2= sc.nextDouble();
                 System.out.println(WorkingAlone_TogetherToComplete.A_BWork(x,d1,y,d2));
+
+            }
+            case 10->{
+                System.out.println("Enter the total work of A");
+                double x=sc.nextDouble();
+                System.out.println("Enter how many days the work completed by A ");
+                double d1= sc.nextDouble();
+                System.out.println("Enter the total work of B");
+                double y=sc.nextDouble();
+                System.out.println("Enter how many days the work completed by B ");
+                double d2= sc.nextDouble();
+                System.out.println("enter the total work to do by A and B");
+                double z= sc.nextDouble();
+                System.out.println("A and B complete the work in "+WorkingAlone_TogetherToComplete.Work(x,d1,y,d2,z)+" days");
 
             }
 

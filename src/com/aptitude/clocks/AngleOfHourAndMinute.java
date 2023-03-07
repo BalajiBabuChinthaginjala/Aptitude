@@ -26,6 +26,18 @@ public class AngleOfHourAndMinute {
         System.out.println("Required time is " + time + " hrs ahead of "+hour+" is : "+hour+"+"+time);
         return total_time;
     }
+    /*To find angle of minute hand when the clock starting to till the required time*/
+    static double AngleOfMinute(double minutes){
+        double angle=6*minutes ;
+        System.out.println("Angle traced by the minute hand in " + minutes + " is: ");
+        return angle;
+    }
+    /*To find angle of hours hand when the clock starting to till the required time*/
+    static double AngleOfHour(double hours){
+        double angle=30*(hours) ;
+        System.out.println("Angle traced by the minute hand in " + hours + " is: ");
+        return angle;
+    }
 
 
 

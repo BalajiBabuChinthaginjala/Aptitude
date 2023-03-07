@@ -2,9 +2,8 @@ package com.aptitude.clocks;
 
 public class HandsOfClockTogether {
     /*To find Where the hand of a clock will Together*/
-    static double Together(double hours1,double hours2){
+    static double Together(double hours1){
         double hands_together=(60*(hours1*5))/55;
-
         return hands_together;
     }
     /*To find where the hands of a clock will opposite*/
@@ -36,7 +35,6 @@ public class HandsOfClockTogether {
         double angle=6*minute;
         double time=(((30*(hour1))+angle)*2)/11;
         System.out.println((spaces-minute)+" minutes are gained in 60/55*"+(spaces+minute)+"="+time+" min");
-
         return time;
     }
 }

@@ -7,9 +7,11 @@
     <list default="true" id="e4a4b4e6-b442-4b27-8413-50b6826ed3c3" name="Changes" comment="Formatted files.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aptitude/clocks/AngleOfHourAndMinute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/clocks/AngleOfHourAndMinute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aptitude/clocks/ClockApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aptitude/clocks/HandsOfClocktogether.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/clocks/HandsOfClockTogether.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aptitude/timeandwork/Leaving.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/timeandwork/Leaving.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aptitude/clocks/ClockApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/clocks/ClockApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aptitude/clocks/HandsOfClockTogether.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/clocks/HandsOfClockTogether.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aptitude/clocks/SingleProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/clocks/SingleProblems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aptitude/simpleinterest/SimpleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/simpleinterest/SimpleApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aptitude/timeandwork/ChainRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/timeandwork/ChainRule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aptitude/timeandwork/TimeAndWorkApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/timeandwork/TimeAndWorkApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aptitude/timeandwork/WorkingAlone_TogetherToComplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/timeandwork/WorkingAlone_TogetherToComplete.java" afterDir="false" />
     </list>
@@ -71,7 +73,12 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TimeAndWorkApp">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aptitude.chinerule" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.aptitude.clocks.ClockApp">
     <configuration name="ClockApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ClockApp" />
       <module name="Clocks" />
@@ -147,9 +154,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.aptitude.clocks.ClockApp" />
         <item itemvalue="Application.TimeAndWorkApp" />
         <item itemvalue="Application.Lcm" />
-        <item itemvalue="Application.com.aptitude.clocks.ClockApp" />
         <item itemvalue="Application.CompoundApp" />
         <item itemvalue="Application.SimpleApp" />
       </list>
@@ -212,6 +219,11 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="32c624df-eda4-449f-bb76-fc2ce1e4bc92">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -234,6 +246,11 @@
             </State>
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="32c624df-eda4-449f-bb76-fc2ce1e4bc92" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>

@@ -61,9 +61,11 @@ public class WorkingAlone_TogetherToComplete {
 
     /*A can complete  X piece of work in 'n1' days and
     B-> Y piece of work in 'n2' days in how many days both A and B can complete z piece of work */
-    static void Work((double x,double d1,double y,double d2,double z){
-
-
+    static double Work(double x,double d1,double y,double d2,double z){
+        double AOneDayWork=x/d1;
+        double BOneDayWork=y/d2;
+        double totalWorkDone=z/(AOneDayWork+BOneDayWork);
+        return totalWorkDone;
     }
 
 }

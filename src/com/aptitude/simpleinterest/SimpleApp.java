@@ -14,7 +14,7 @@ public class SimpleApp {
         System.out.println("3.To Find Rate of Interest");
         System.out.println("4.To Find Time years");
         System.out.println("5.To find rate of interest using si1,t1,si2,t2");
-        System.out.println("6.AT wahat rate sum wull double in t years");
+        System.out.println("6.AT what rate sum will double in t years");
 
         System.out.println();
 
