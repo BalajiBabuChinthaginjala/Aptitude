@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4a4b4e6-b442-4b27-8413-50b6826ed3c3" name="Changes" comment="Formatted files.">
+    <list default="true" id="e4a4b4e6-b442-4b27-8413-50b6826ed3c3" name="Changes" comment="Completed Version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aptitude/clocks/ClockApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/clocks/ClockApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aptitude/clocks/SingleProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/clocks/SingleProblems.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +67,20 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aptitude.chainrule" />
       <recent name="com.aptitude.chinerule" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.aptitude.clocks.ClockApp">
-    <configuration name="ClockApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClockApp" />
-      <module name="Clocks" />
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aptitude.truediscount.App" />
+      <module name="Aptitude" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aptitude.truediscount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,19 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aptitude.simpleinterest.SimpleApp" />
-      <module name="Aptitude" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aptitude.simpleinterest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TimeAndWorkApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aptitude.timeandwork.TimeAndWorkApp" />
       <module name="Aptitude" />
@@ -148,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.com.aptitude.clocks.ClockApp" />
         <item itemvalue="Application.TimeAndWorkApp" />
         <item itemvalue="Application.Lcm" />
         <item itemvalue="Application.CompoundApp" />
-        <item itemvalue="Application.SimpleApp" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678199417013</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Completed Version">
+      <created>1678254349017</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678254349017</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,6 +256,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Formatted files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Formatted files." />
+    <MESSAGE value="Completed Version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Version" />
   </component>
 </project>
