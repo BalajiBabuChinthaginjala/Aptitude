@@ -57,14 +57,4 @@ public class SingleProblems {
         double requiredPercent=(time*100)/1440;//1440 is the value of number of minutes in a day(24*60)
         return requiredPercent;
     }
-
-
-
-
-
-
-
-
-
-
 }

@@ -6,14 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e4a4b4e6-b442-4b27-8413-50b6826ed3c3" name="Changes" comment="Formatted files.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aptitude/clocks/AngleOfHourAndMinute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/clocks/AngleOfHourAndMinute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aptitude/clocks/ClockApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/clocks/ClockApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aptitude/clocks/HandsOfClockTogether.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/clocks/HandsOfClockTogether.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aptitude/clocks/SingleProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/clocks/SingleProblems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aptitude/simpleinterest/SimpleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/simpleinterest/SimpleApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aptitude/timeandwork/ChainRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/timeandwork/ChainRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aptitude/timeandwork/TimeAndWorkApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/timeandwork/TimeAndWorkApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aptitude/timeandwork/WorkingAlone_TogetherToComplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aptitude/timeandwork/WorkingAlone_TogetherToComplete.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677856080619</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Formatted files.">
+      <created>1678199417013</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678199417013</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -7,26 +7,40 @@ public class ClockApp {
 
         public static void main(String[] args) {
             Scanner sc=new Scanner(System.in);
-            System.out.println("1.TO find angle between hour and minute hand");
-            System.out.println("2.TO find Reflect_angle between hour and minute hand");
-            System.out.println("3.To find Where the hand of a clock will Together");
-            System.out.println("4.To find where the hands of a clock will opposite");
-            System.out.println("5.The hour hand moved x degrees find the time");
-            System.out.println("6.The hands of a clock apart beside");
-            System.out.println("7.The hands of a clock apart ahead");
-            System.out.println("8.How many rotations will the hour hand of a clock complete in x hours");
-            System.out.println("9.To find angle of minute hand when the clock starting to till the required time");
-            System.out.println("10.To find angle of hour hand when the clock starting to till the required time");
-            System.out.println("11.How many times the hands of a clock coincide/opposite in x hours");
-            System.out.println("12.How many times the hands of a clock Straight/right angle in x hours");
-            System.out.println("13.in every x hours the time increse by y mins");
-            System.out.println("14.How much does a watch lose per day, if its hands coincide every x minutes");
-            System.out.println("15.The clock gains x mins in one hour then the angle traversed by minute hand in y hours");
-            System.out.println("16.A clock strikes once at 1'O clock twice at 2\"o clock and so on total no of strikes in x hours ");
-            System.out.println("17.A wall clock takes 9 seconds in tringing at 9'o clock the time it will take in training at 11'o clock is");
-            System.out.println("18.A watch becomes fast by x mins everyday by what % does it become fast");
-
-
+            System.out.println("1:To Find Angle(between hour and minute,Reflect_angle,angle of minute,hour)");
+            System.out.println("2:hand of a clock will Together,opposite,coincide/opposite,Straight/right angle");
+            System.out.println("3:apart beside,ahead");
+            System.out.println("4:Single problems");
+            System.out.println("Enter your choice");
+            int value= sc.nextInt();
+            switch (value){
+                case 1:
+                    System.out.println("1.TO find angle between hour and minute hand");
+                    System.out.println("2.TO find Reflect_angle between hour and minute hand");
+                    System.out.println("9.To find angle of minute hand when the clock starting to till the required time");
+                    System.out.println("10.To find angle of hour hand when the clock starting to till the required time");
+                break;
+                case 2:
+                    System.out.println("3.To find Where the hand of a clock will Together");
+                    System.out.println("4.To find where the hands of a clock will opposite");
+                    System.out.println("11.How many times the hands of a clock coincide/opposite in x hours");
+                    System.out.println("12.How many times the hands of a clock Straight/right angle in x hours");
+                    break;
+                case 3:
+                    System.out.println("6.The hands of a clock apart beside");
+                    System.out.println("7.The hands of a clock apart ahead");
+                    break;
+                case 4:
+                    System.out.println("5.The hour hand moved x degrees find the time");
+                    System.out.println("8.How many rotations will the hour hand of a clock complete in x hours");
+                    System.out.println("13.in every x hours the time increse by y mins");
+                    System.out.println("14.How much does a watch lose per day, if its hands coincide every x minutes");
+                    System.out.println("15.The clock gains x mins in one hour then the angle traversed by minute hand in y hours");
+                    System.out.println("16.A clock strikes once at 1'O clock twice at 2\"o clock and so on total no of strikes in x hours ");
+                    System.out.println("17.A wall clock takes 9 seconds in tringing at 9'o clock the time it will take in training at 11'o clock is");
+                    System.out.println("18.A watch becomes fast by x mins everyday by what % does it become fast");
+                    break;
+            }
             int choice= sc.nextInt();
             switch (choice){
                 case 1->{
